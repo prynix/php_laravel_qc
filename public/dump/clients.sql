@@ -1,0 +1,3 @@
+1	ĐẶNG THỊ CHÂU LOAN (Ms.)	Trưởng Phòng Kinh Doanh Quảng Cáo CÔNG TY TNHH PHÁT HÀNH TRƯỜNG PHÁT	dtcloan@tpinfo.vn	Số 179, Lý Chính Thắng, P.7, Q.3	TP.HCM	247	(0986) 742-679_		2015-05-20 11:08:58	2015-05-20 04:08:58	0	2	1
+2	NGUYỄN THỊ THƠM (Ms.)	Thư Ký Kinh Doanh	ntthom@tpinfo.vn	Số 179, Lý Chính Thắng, P.7, Q.3. TP.HCM		247	(0974) 941-554_		2015-05-20 11:08:55	2015-05-20 04:08:55	0	1	1
+3	MẠNG BÁN LẺ TRỰC TUYẾN GOHAPPY	Khách hàng đặt quảng cáo đến website goHappy.vn	tudt123@tintuc.vn	Văn phòng giao dịch: Lô 11-H1 khu đô thị Yên Hòa, quận Cầu Giấy, Hà Nội, Việt Nam	Hà Nội	247	(8446) 263-5858		2015-05-25 10:16:21	2015-05-13 06:25:47	0	3	1

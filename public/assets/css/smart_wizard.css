@@ -1,0 +1,321 @@
+/*   
+  SmartWizard 2.0 plugin 
+  jQuery Wizard control Plugin
+  by Dipu
+  
+  http://www.techlaboratory.net
+  http://tech-laboratory.blogspot.com
+*/
+.swMain {
+  position:relative;
+  display:block;
+  margin:0;
+  padding:0;
+  border: 1px solid #CCC;
+  overflow:visible;
+  float:left;
+  width:100%;
+}
+.swMain .stepContainer {
+  display:block;
+  position: relative;
+  margin: 0;
+  padding:0;    
+  border: 0px solid #CCC;    
+  overflow:hidden;
+  clear:both;
+  height:auto;
+}
+
+.swMain .stepContainer div.content {
+  border-radius: 0px !important;
+  display:block;
+  position: absolute;  
+  float:left;
+  margin: 0;
+  padding:5px;    
+  border: 0px solid #CCC; 
+  font: normal 12px; 
+  color:#5A5655;   
+  background-color:#FFF;  
+  height:auto;
+  text-align:left;
+  overflow:visible;    
+  z-index:88; 
+  -webkit-border-radius: 5px;
+  -moz-border-radius  : 5px;
+  width:100%;
+  clear:both;
+}
+
+.swMain div.actionBar {
+  border-radius: 0px !important;
+  display:block;
+  position: relative; 
+  clear:both;
+  /*margin:             3px 0 0 0;   */
+  border:             1px solid #CCC;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  padding:            0;    
+  color:              #5A5655;   
+  background-color:   #F8F8F8;
+  height:40px;
+  text-align:left;
+  overflow:auto;    
+  z-index:88; 
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius  : 5px;
+  left:0;
+}
+
+.swMain .stepContainer .StepTitle {
+  display:block;
+  position: relative;
+  margin:0;   
+  border:1px solid #E0E0E0;
+  padding:5px;   
+  font-size: 12px; 
+  color:#5A5655;   
+  background-color:#E0E0E0;
+  clear:both;
+  text-align:left; 
+  z-index:88;   
+}
+.swMain ul.anchor {
+  position: relative;
+  display:block;
+  float:left;
+  list-style: none;
+  padding: 0px;  
+  margin: 0px 0px !important;      
+  clear: both;
+  border: 0px solid #CCCCCC;    
+  background: transparent; /*#EEEEEE */
+}
+.swMain ul.anchor li{ 
+  position: relative; 
+  display:block;
+  margin: 0;
+  padding: 0; 
+  /*padding-left:3px;
+  padding-right: 3px;*/
+  border: 1px solid #E0E0E0;     
+  border-left: 0px;
+  border-top: 0px;
+  float: left;
+}
+.swMain ul.anchor li:last-child{
+  border-right: 1px solid #CCC;
+}
+/* Anchor Element Style */
+.swMain ul.anchor li a {
+  border-radius: 0px !important;
+  display:block;
+  position:relative;
+  float:left;
+  margin:0;
+  padding:10px;
+  /*height:60px;
+  width:230px;*/
+  text-decoration: none;
+  outline-style:none;
+  -moz-border-radius  : 5px;
+  -webkit-border-radius: 5px;
+  z-index:99;
+}
+.swMain ul.anchor li a .stepNumber{
+  position:relative;
+  float:left;
+  /*width:30px;*/
+  text-align: center;
+  padding:0 5px;
+  padding-top:0;
+  font-size: 14px;
+  background-color: #bbb;
+  color:#333;
+}
+.swMain ul.anchor li a .stepDesc{
+  position:relative;
+  display:block;
+  float:left;
+  text-align: left;
+  margin: 0 5px;
+  /*padding:5px;*/
+}
+.swMain ul.anchor li a .stepDesc small{
+  font-size: 14px;
+}
+.swMain ul.anchor li a.selected{
+  color:#333;
+  background: #99cc00;  /* EA8511 */
+  border: 0px solid #99cc00;
+  cursor:text;
+  /*-moz-box-shadow: 5px 5px 8px #888;
+  -webkit-box-shadow: 5px 5px 8px #888;
+  box-shadow: 5px 5px 8px #888;*/
+}
+.swMain ul.anchor li a.selected .stepNumber{
+	background-color: #336600;
+	color: #FFF;
+}
+.swMain ul.anchor li a.selected:hover {
+  color:#333;  
+  background: #99cc00;  
+}
+
+.swMain ul.anchor li a.done { 
+  position:relative;
+  color:#333;  
+  background: #cccccc;  
+  border: 0px solid #cccccc;   
+  z-index:99;
+}
+.swMain ul.anchor li a.done .stepNumber{ 
+  background-color: #bbb;
+  color:#333;  
+}
+.swMain ul.anchor li a.done:hover {
+  color:#333;  
+  background: #cccccc; 
+  border: 0px solid #cccccc;   
+}
+.swMain ul.anchor li a.disabled {
+  color:#333;  
+  background: #cccccc;
+  border: 0px solid #CCC;
+  border-top: 0px;
+  border-right: 0px;
+  cursor:text;   
+}
+.swMain ul.anchor li a.disabled:hover {
+  color:#333;  
+  background: #cccccc;     
+}
+
+.swMain ul.anchor li a.error {
+  color:#6c6c6c !important;  
+  background: #f08f75 !important;
+  border: 1px solid #fb3500 !important;      
+}
+.swMain ul.anchor li a.error:hover {
+  color:#000 !important;       
+}
+
+.swMain .buttonNext {
+  display:block;
+  float:right;
+  margin:5px 3px 0 3px;
+  padding:5px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 13px;
+  width:100px;
+  color:#FFF;
+  outline-style:none;
+  background-color:   #5A5655;
+  border: 1px solid #5A5655;  
+}
+.swMain .buttonDisabled {
+  color:#F8F8F8  !important;
+  background-color: #CCCCCC !important;
+  border: 1px solid #CCCCCC  !important;
+  cursor:text;    
+}
+.swMain .buttonPrevious {
+  display:block;
+  float:right;
+  margin:5px 3px 0 3px;
+  padding:5px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 13px;
+  width:100px;
+  color:#FFF;
+  outline-style:none;
+  background-color:   #5A5655;
+  border: 1px solid #5A5655;   
+}
+.swMain .buttonFinish {
+  display:none;
+  float:right;
+  margin:5px 10px 0 3px;
+  padding:5px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 13px;
+  width:100px;
+  color:#FFF;
+  outline-style:none;
+  background-color:   #5A5655;
+  border: 1px solid #5A5655;
+  -moz-border-radius  : 5px; 
+  -webkit-border-radius: 5px;    
+}
+
+/* Form Styles */
+
+.txtBox {
+  border:1px solid #CCCCCC;
+  color:#5A5655;
+  font:13px;
+  padding:2px;
+  width:430px;
+}
+.txtBox:focus {
+  border:1px solid #EA8511;
+}
+
+.swMain .loader {
+  position:relative;  
+  display:none;
+  float:left;  
+  margin: 2px 0 0 2px;
+  padding:8px 10px 8px 40px;
+  border: 1px solid #FFD700; 
+  font-size: 13px; 
+  color:#5A5655;       
+  background: #FFF url(../images/loader.gif) no-repeat 5px;  
+  -moz-border-radius  : 5px;
+  -webkit-border-radius: 5px;
+  z-index:998;
+}
+.swMain .msgBox {
+  position:relative;  
+  display:none;
+  float:left;
+  margin: 4px 0 0 5px;
+  padding:5px;
+  border: 1px solid #FFD700; 
+  background-color: #FFFFDD;  
+  font: normal 12px; 
+  color:#5A5655;         
+  -moz-border-radius  : 5px;
+  -webkit-border-radius: 5px;
+  z-index:999;
+  min-width:200px;  
+}
+.swMain .msgBox .content {
+  font: normal 12px;
+  padding: 0px;
+  float:left;
+}
+.swMain .msgBox .close {
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  color: #CCC;
+  display: block;
+  float: right;
+  margin: 0 0 0 5px;
+  outline-style: none;
+  padding: 0 2px 0 2px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+.swMain .msgBox .close:hover{
+  color: #EA8511;
+  border: 1px solid #EA8511;  
+}

@@ -1,0 +1,58 @@
+/*!
+ * jQuery FormHelp Plugin Sample
+ * https://github.com/invetek/jquery-formhelp
+ *
+ * Copyright 2013 Loran Kloeze - Invetek
+ * Released under the MIT license
+ */
+.contentwrapper {
+    margin: 50px 0 0 200px;
+    width: 800px;
+}
+
+.myprefix-form-helpbox {
+    position: absolute;
+    margin: 0 0 0 25px;
+    padding:  0 0 0 15px;
+    background-image: url('../img/icon/arrow_left.png');
+    background-position: left 3px;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.myprefix-form-helpbox .content {
+    padding: 5px 10px 10px 5px;
+    background-color: #5522cc;
+    width: 125px;
+    color: #EEE;
+    border: solid 1px #222;    
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px #222;
+    opacity: 0.95;
+}
+
+.myprefix-form-helpbox .tools {
+    text-align: right;
+    display: none;
+}
+
+.myprefix-form-helpbox .pushpin {
+    width: 11px;
+    height: 11px;
+    background-image: url('../img/icon/pushpin.png');
+    background-repeat: no-repeat;
+
+}
+
+.myprefix-form-helpbox .pushpin:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.myprefix-form-helpbox .pushpin.pinned {
+    width: 11px;
+    height: 11px;
+    background-image: url('../img/icon/pushpin.png');
+    background-repeat: no-repeat;
+    background-position: -11px 0;
+}

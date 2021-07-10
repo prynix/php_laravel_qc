@@ -1,0 +1,49 @@
+/*
+ * Each Example
+ * 
+ */
+
+ .example { 	
+	float:left;
+	margin:10px;
+	width:100%;
+ }
+
+	 .example > .title{
+	 	font-size:1em;
+		font-weight:bold;
+		padding:5px;
+		margin-bottom:10px;
+		border-bottom:#666666 dotted 1px;
+	 }
+	 
+	 .example > .container{
+	 	margin:0 auto;
+		background:#000000;
+	 }
+	 
+	 .example > .description{
+		
+	 }
+	 
+	 .example > .doc{
+		background:#BBBBBB;
+	 }
+	 
+	 .example > .code{
+		
+	 }
+	 .example > .method{
+		font-weight: bold;
+                font-size: .8em;
+                color:#080;
+	 }
+
+         .example > .prettyprint{
+             padding: 10px;
+             font-size: .8em;
+             border: 1px solid #999;
+             background-color: #EEE;
+
+         }
+	 

@@ -1,0 +1,5 @@
+3	4	Sức khỏe cộng đồng			Công ty Cổ phần iNews 247 quận Cầu Giấy, Hà Nội	info@tintuc.vn	http://skcd.com.vn/		52				247							0	97271	28033	0	94		2015-05-13 13:44:32	2015-05-13 06:44:32	0	5	_	1
+4	5	Tin tức Việt Nam			Công ty Cổ phần iNews 247 quận Cầu Giấy, Hà Nội	info@tintuc.vn	http://tintuc.vn/		52				247							0	26069623	19002012	0	24		2015-05-28 11:19:54	2015-05-13 06:44:32	0	1	_	1
+5	6	Mobile tin tức Việt Nam			247 Cầu Giấy, quận Cầu Giấy, Hà Nội	info@tintuc.vn	http://m.tintuc.vn/		52				247							0	22953079	18474812	0	24		2015-05-12 16:28:23	2014-12-03 06:12:13	0	3	_	1
+6	8	CÔNG TY TNHH THÔNG TIN TRƯỜNG PHÁT			Số 179, Lý Chính Thắng, P.7, Q.3. TP.HCM	ntthom@tpinfo.vn	http://truongphat.com.vn/		52				247							0	0	0	0	0		2015-01-26 07:57:55	2015-01-26 07:57:55	0	4	_	1
+7	9	MẠNG BÁN LẺ TRỰC TUYẾN GOHAPPY			Văn phòng giao dịch:  Lô 11-H1 khu đô thị Yên Hòa, quận Cầu Giấy, Hà Nội, Việt Nam	sales@gohappy.vn	http://gohappy.vn/	gohappy.vn	52				247							0	0	0	0	\N		2015-05-13 13:44:29	2015-05-13 06:44:29	0	2	_	1

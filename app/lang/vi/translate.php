@@ -1,0 +1,36 @@
+<?php
+return array(
+	"menu_item_change_language"=>"Ngôn ngữ",
+	"menu_item_language_option"=>array(
+		"en"=>"Tiếng Anh",
+		"vi"=>"Tiếng Việt"
+	),
+	"menu_item_dashboard"=>"Bảng điều khiển",
+	"menu_item_advertiser"=>"Nhà quảng cáo",
+	"menu_item_campaign"=>"Chiến dịch",
+	"menu_item_website"=>"Trang web",
+	"menu_item_zone"=>"Vùng hiển thị",
+	"menu_item_banner"=>"Banner quảng cáo",
+	"menu_item_channel"=>"Kênh phân phối",
+	"menu_item_ccount"=>"Bộ đếm lượt click",
+	"menu_item_vcount"=>"Bộ đếm lượt hiển thị",
+	"menu_item_statistic"=>"Thống kê",
+	"menu_item_user"=>"Người dùng",
+	"menu_item_usergroup"=>"Nhóm người dùng",
+	"menu_item_config"=>"Cấu hình tổng quan",
+	"menu_item_zonetype"=>"Loại quảng cáo",
+	"menu_item_adtype"=>"Kích thước quảng cáo",
+	"menu_item_category"=>"Danh mục",
+	"menu_item_country"=>"Quốc gia",
+	"menu_item_language"=>"Ngôn ngữ",
+	"menu_item_extra"=>"Mở rộng",
+	"menu_item_userlog"=>"Thao tác người dùng",
+	"menu_item_file_manager"=>"Quản lý file",
+	"menu_item_adhelp"=>"Quản lý giúp đỡ",
+	"menu_item_tool"=>"Công cụ",
+	"menu_item_database_backup"=>"Sao lưu dữ liệu",
+	"menu_item_file_backup"=>"Sao lưu file",
+	"menu_item_lockscreen"=>"Khóa màn hình",
+	"menu_item_new"=>"Mới",
+);
+?>

@@ -1,0 +1,4 @@
+2014_09_12_083509_create_zones_table	1
+2014_09_14_075912_create_posts_table	1
+2014_09_14_080124_create_comments_table	1
+2014_09_15_044839_create_users_table	1
